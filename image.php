@@ -5,7 +5,7 @@ $white = imagecolorallocate($im, 255, 255, 255);
 // Line reserved to trigger the webhook in the lab. 
 $deployment = getenv("COLOR");
 
-$color = imagecolorallocate($im, 255,0,0);
+$color = imagecolorallocate($im, 255,0,255);
 
 // Draw a filled rectangle
 imagefilledrectangle($im, 0, 0, 199, 199, $color);
